@@ -70,16 +70,22 @@ a {
 }
 
 .social {
-    display: grid;
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: row;;
     border: 1px solid black;
     border-radius: 10px;
-    text-align: center;
     justify-content: center;
     margin: 20px;
+}
+
+.lebenslauf {
+    list-style: none;
+    padding-left: 0px;
 }
 
 .footer {
     background: #EAE8E6;
     text-align: center;
+    padding: 40px 0 10px;
+
 }
