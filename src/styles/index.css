@@ -10,8 +10,14 @@ h1 {
     font-weight: 600;
 }
 
-h2, h3 {
+h2 {
     font-weight: 400;
+    margin: 0;
+}
+
+h3 {
+    font-weight: 400;
+    margin: 0;
 }
 
 header {
@@ -26,7 +32,7 @@ nav {
 }
 
 main {
-    margin: 10px;
+    margin: 0px 10px;
 }
 
 a {
@@ -43,6 +49,7 @@ a {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    padding-left: 0px;
 }
 
 .skill {
@@ -50,15 +57,29 @@ a {
     background-color: #C7E0DD;
     padding-right: 2px;
     padding-left: 2px;
-    border-radius: 8%;
+    border-radius: 5px;
 }
 
 .contact {
-
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    font-style: normal;
 }
 
 .social {
     display: grid;
     grid-template-columns: 1fr;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+    margin: 20px;
+}
 
+.footer {
+    background: #EAE8E6;
+    text-align: center;
 }
