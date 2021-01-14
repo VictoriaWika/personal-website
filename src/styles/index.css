@@ -1,3 +1,64 @@
 body {
-    background: hotpink
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;;
+    font-size: 112.5%;
+    line-height: 1.5;
+    margin: 0;
+}
+
+h1 {
+    font-weight: 600;
+}
+
+h2, h3 {
+    font-weight: 400;
+}
+
+header {
+    background: #EAE8E6;
+    text-align: center;
+    padding: 5px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+main {
+    margin: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.profile-picture {
+    margin: 0 auto;
+}
+
+.skills {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.skill {
+    margin: 2px;
+    background-color: #C7E0DD;
+    padding-right: 2px;
+    padding-left: 2px;
+    border-radius: 8%;
+}
+
+.contact {
+
+}
+
+.social {
+    display: grid;
+    grid-template-columns: 1fr;
+
 }

@@ -7,6 +7,9 @@
   <title>Personal Website</title>
   <link rel="stylesheet" href="styles/index.css">
   <link rel="stylesheet" href="styles/print.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -19,63 +22,64 @@
   </header>
   <main>
     <figure>
-      <img src="images/Foto.JPG" alt="" width="350" height="350">
+      <img class="profile-picture" src="images/Foto.JPG" alt="" width="350" height="350">
       <figcaption>i bims.</figcaption>
     </figure>
 
     <section>
       <h2>Skills</h2>
       <h3>EDV Kenntsnisse</h3>
-      <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-        <li>Git & Github</li>
-        <li>zsh</li>
-        <li>MS Office</li>
-        <li>Jira</li>
-        <li>Confluence</li>
-        <li>Slack</li>
-        <li>SAP</li>
+      <ul class="skills">
+        <li class="skill">HTML</li>
+        <li class="skill">CSS</li>
+        <li class="skill">JavaScript</li>
+        <li class="skill">zsh</li>
+        <li class="skill">Git & Github</li>
+        <li class="skill">MS Office</li>
+        <li class="skill">Jira</li>
+        <li class="skill">Confluence</li>
+        <li class="skill">Slack</li>
+        <li class="skill">SAP</li>
       </ul>
     </section>
     <section>
       <h3>Sprachen</h3>
-      <ul>
-        <li>Deutsch</li>
-        <li>Polnisch</li>
-        <li>Englisch</li>
-        <li>Spanisch</li>
+      <ul class="skills">
+        <li class="skill">Deutsch</li>
+        <li class="skill">Polnisch</li>
+        <li class="skill">Englisch</li>
+        <li class="skill">Spanisch</li>
       </ul>
     </section>
     <section>
       <h2>Interessen</h2>
-      <ul>
-        <li>Reisen</li>
-        <li>Snowboarden</li>
-        <li>Kochen</li>
-        <li>Serien & Filme</li>
-        <li>Musik</li>
-        <li>DIY</li>
-        <li>Brettspiele</li>
+      <ul class="skills">
+        <li class="skill">Reisen</li>
+        <li class="skill">Snowboarden</li>
+        <li class="skill">Kochen</li>
+        <li class="skill">Serien & Filme</li>
+        <li class="skill">Musik</li>
+        <li class="skill">DIY</li>
+        <li class="skill">Brettspiele</li>
       </ul>
     </section>
-    <address>
+    <address class="contact">
       <h2 id="contact">Kontakt</h2>
       Victoria Wika<br>
       +49 1234567890<br>
       mail@mail.com
     </address>
     <section>
-      <a href="https://www.github.com/VictoriaWika"><img src="./images/github.svg" alt="Github" width="20%">Github</a>
+      <a class="social" href="https://www.github.com/VictoriaWika"><img src="./images/github.svg" alt="Github"
+          width="20%">Github</a>
 
-      <a href="https://www.codepen.io/victoriawika"><img src="./images/codepen.svg" alt="Codepen"
+      <a class="social" href="https://www.codepen.io/victoriawika"><img src="./images/codepen.svg" alt="Codepen"
           width="20%">Codepen</a>
 
-      <a href="https://www.linkedin.com/in/victoria-wika/"><img src="./images/linkedin.svg" alt="LinkedIn"
-          width="20%">LinkedIn</a>
+      <a class="social" href="https://www.linkedin.com/in/victoria-wika/"><img src="./images/linkedin.svg"
+          alt="LinkedIn" width="20%">LinkedIn</a>
 
-      <a href="https://www.xing.com/profile/Victoria_Wika/cv"><img src="./images/xing.svg" alt="Xing"
+      <a class="social" href="https://www.xing.com/profile/Victoria_Wika/cv"><img src="./images/xing.svg" alt="Xing"
           width="20%">Xing</a>
     </section>
     <section>
@@ -100,7 +104,7 @@
     </section>
     <section>
       <h2>Curriculum Vitae</h2>
-      <ul style="font-family: Arial, Helvetica, sans-serif;">
+      <ul>
 
         <li><b>Januar 2021 - April 2021</b><br>
           <b>neueFische GmbH</b> Web Development Student
