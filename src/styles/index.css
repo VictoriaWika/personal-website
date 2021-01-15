@@ -1,91 +1,94 @@
 body {
-    box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;;
-    font-size: 112.5%;
-    line-height: 1.5;
-    margin: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 112.5%;
+  line-height: 1.5;
+  margin: 0;
 }
 
 h1 {
-    font-weight: 600;
+  font-weight: 600;
 }
 
 h2 {
-    font-weight: 400;
-    margin: 0;
+  font-weight: 400;
+  margin: 0;
 }
 
 h3 {
-    font-weight: 400;
-    margin: 0;
+  font-weight: 400;
+  margin: 0;
 }
 
 header {
-    background: #EAE8E6;
-    text-align: center;
-    padding: 5px;
-}
-
-nav {
-    display: flex;
-    justify-content: space-evenly;
+  background: #eae8e6;
+  text-align: center;
+  padding: 5px;
 }
 
 main {
-    margin: 0px 10px;
+  margin: 0px 10px;
 }
 
 a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
+}
+
+.main-nav {
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .profile-picture {
-    margin: 0 auto;
+  margin: 0 auto;
+  border-radius: 50%;
 }
 
 .skills {
-    list-style: none;
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    padding-left: 0px;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding-left: 0px;
 }
 
 .skill {
-    margin: 2px;
-    background-color: #C7E0DD;
-    padding-right: 2px;
-    padding-left: 2px;
-    border-radius: 5px;
+  margin: 2px;
+  background-color: #c7e0dd;
+  padding-right: 2px;
+  padding-left: 2px;
+  border-radius: 5px;
 }
 
 .contact {
-    border: 1px solid black;
-    border-radius: 10px;
-    text-align: center;
-    margin: 20px;
-    padding: 10px;
-    font-style: normal;
+  border: 1px solid black;
+  border-radius: 10px;
+  text-align: center;
+  margin: 20px;
+  padding: 10px;
+  font-style: normal;
 }
 
 .social {
-    display: flex;
-    flex-direction: row;;
-    border: 1px solid black;
-    border-radius: 10px;
-    justify-content: center;
-    margin: 20px;
+  display: flex;
+  align-content: center;
+  justify-content: space-evenly;
+  margin-top: 40px;
+  margin-bottom: 15px;
+}
+
+.social a {
+  width: 15%;
 }
 
 .lebenslauf {
-    list-style: none;
-    padding-left: 0px;
+  list-style: none;
+  padding-left: 0px;
 }
 
 .footer {
-    background: #EAE8E6;
-    text-align: center;
-    padding: 40px 0 10px;
-
+  background: #eae8e6;
+  text-align: center;
+  padding: 40px 0 10px;
 }

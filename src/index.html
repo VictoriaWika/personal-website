@@ -1,153 +1,170 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="styles/index.css" />
+    <link rel="stylesheet" href="styles/print.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Personal Website</title>
-  <link rel="stylesheet" href="styles/index.css">
-  <link rel="stylesheet" href="styles/print.css">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap" rel="stylesheet">
-</head>
+  <body>
+    <header>
+      <h1>Victoria Wika</h1>
+      <nav class="main-nav">
+        <a href="#bio">ABOUT ME</a>
+        <a href="#contact">CONTACT ME</a>
+        <a href="#resume">RESUME</a>
+      </nav>
+    </header>
+    <main>
+      <figure>
+        <img
+          class="profile-picture"
+          src="images/Foto.JPG"
+          alt=""
+          width="300"
+          height="300"
+        />
+      </figure>
 
-<body>
-  <header>
-    <h1>Victoria Wika</h1>
-    <nav>
-      <a href="#contact">Contact me</a>
-      <a href="#bio">About me</a>
-    </nav>
-  </header>
-  <main>
-    <figure>
-      <img class="profile-picture" src="images/Foto.JPG" alt="" width="300" height="300">
-      <figcaption>i bims.</figcaption>
-    </figure>
+      <section>
+        <h2>Skills</h2>
+        <h3>EDV Kenntsnisse</h3>
+        <ul class="skills">
+          <li class="skill">HTML</li>
+          <li class="skill">CSS</li>
+          <li class="skill">JavaScript</li>
+          <li class="skill">Git & Github</li>
+          <li class="skill">zsh</li>
+          <li class="skill">MS Office</li>
+          <li class="skill">Jira</li>
+          <li class="skill">Confluence</li>
+          <li class="skill">Slack</li>
+          <li class="skill">SAP</li>
+        </ul>
+      </section>
+      <section>
+        <h3>Sprachen</h3>
+        <ul class="skills">
+          <li class="skill">Deutsch</li>
+          <li class="skill">Polnisch</li>
+          <li class="skill">Englisch</li>
+          <li class="skill">Spanisch</li>
+        </ul>
+      </section>
+      <section>
+        <h2>Interessen</h2>
+        <ul class="skills">
+          <li class="skill">Reisen</li>
+          <li class="skill">Snowboarden</li>
+          <li class="skill">Kochen</li>
+          <li class="skill">Serien & Filme</li>
+          <li class="skill">Musik</li>
+          <li class="skill">DIY</li>
+          <li class="skill">Brettspiele</li>
+        </ul>
+      </section>
+      <address class="contact" id="contact">
+        <h2>Kontakt</h2>
+        Victoria Wika<br />
+        +49 1234567890<br />
+        mail@mail.com
+      </address>
+      <section class="social">
+        <a href="https://www.github.com/VictoriaWika"
+          ><img src="./images/github.svg" alt="Github"
+        /></a>
 
-    <section>
-      <h2>Skills</h2>
-      <h3>EDV Kenntsnisse</h3>
-      <ul class="skills">
-        <li class="skill">HTML</li>
-        <li class="skill">CSS</li>
-        <li class="skill">JavaScript</li>
-        <li class="skill">Git & Github</li>
-        <li class="skill">zsh</li>
-        <li class="skill">MS Office</li>
-        <li class="skill">Jira</li>
-        <li class="skill">Confluence</li>
-        <li class="skill">Slack</li>
-        <li class="skill">SAP</li>
-      </ul>
-    </section>
-    <section>
-      <h3>Sprachen</h3>
-      <ul class="skills">
-        <li class="skill">Deutsch</li>
-        <li class="skill">Polnisch</li>
-        <li class="skill">Englisch</li>
-        <li class="skill">Spanisch</li>
-      </ul>
-    </section>
-    <section>
-      <h2>Interessen</h2>
-      <ul class="skills">
-        <li class="skill">Reisen</li>
-        <li class="skill">Snowboarden</li>
-        <li class="skill">Kochen</li>
-        <li class="skill">Serien & Filme</li>
-        <li class="skill">Musik</li>
-        <li class="skill">DIY</li>
-        <li class="skill">Brettspiele</li>
-      </ul>
-    </section>
-    <address class="contact">
-      <h2 id="contact">Kontakt</h2>
-      Victoria Wika<br>
-      +49 1234567890<br>
-      mail@mail.com
-    </address>
-    <section>
-      <a class="social" href="https://www.github.com/VictoriaWika"><img src="./images/github.svg" alt="Github"
-          width="20%">Github</a>
+        <a href="https://www.codepen.io/victoriawika"
+          ><img src="./images/codepen.svg" alt="Codepen"
+        /></a>
 
-      <a class="social" href="https://www.codepen.io/victoriawika"><img src="./images/codepen.svg" alt="Codepen"
-          width="20%">Codepen</a>
+        <a href="https://www.linkedin.com/in/victoria-wika/"
+          ><img src="./images/linkedin.svg" alt="LinkedIn"
+        /></a>
 
-      <a class="social" href="https://www.linkedin.com/in/victoria-wika/"><img src="./images/linkedin.svg"
-          alt="LinkedIn" width="20%">LinkedIn</a>
+        <a href="https://www.xing.com/profile/Victoria_Wika/cv"
+          ><img src="./images/xing.svg" alt="Xing"
+        /></a>
+      </section>
+      <section>
+        <h2 id="bio">About me</h2>
+        <p>
+          Ich bin Victoria und komme aus dem wunderschönen Hamburg! Vor dem
+          Start des Web Development Bootcamps in Hamburg habe ich Logistik und
+          Mobilität an der TUHH studiert. Mein Studium habe ich im November 2020
+          abgeschlossen, aber schon während meiner Werkstudenten-Tätigkeiten
+          habe ich gemerkt, dass mich der Beruf nicht besonders fasziniert.
+        </p>
+        <p>
+          Auf neueFische bin ich gestoßen, als ich bei Xing im Einkauf
+          gearbeitet habe und den Vertrag zwischen neueFische und Xing
+          verhandelt habe. Und so bin ich dann beim Web Development gelandet!
+          Wenn Corona mir keinen Strich durch die Rechnung zieht, reise ich am
+          liebsten an neue Orte und snowboarde unheimlich gerne. Zur Zeit
+          beschränken sich meine Hobbys auf Serien und Filme, DIYs und Malen
+          nach Zahlen. Seit einiger Zeit gehört dazu auch das Programmieren!
+        </p>
+      </section>
+      <section id="resume">
+        <h2>Resume</h2>
+        <ul class="lebenslauf">
+          <li>
+            <b>Januar 2021 - April 2021</b><br />
+            <b>neueFische GmbH</b><br />Web Development Student
+          </li>
+          <li>
+            <b>November 2020</b><br />
+            <b>Technische Universität Hamburg</b><br />Bachelor of Science,
+            Studiengang: Logistik und Mobilität
+          </li>
+          <li>
+            <b>September 2018 - August 2020</b><br />
+            <b>New Work Young Professionals GmbH</b> (ehemals
+            <b>XING Young Professionals GmbH</b>)<br />
+            Werkstudentin im Einkauf Tätigkeiten:
+            <ul>
+              <li>Selbständige Angebotsverhandlung von Agenturen</li>
+              <li>
+                Dienstleistern und Coaches Vertragsgestaltung und -abschluss
+              </li>
+              <li>Eigenverantwortliche Durchführung von Ausschreibungen</li>
+              <li>Einkauf von Lizenzen und IT Hardware</li>
+              <li>Lieferantenmanagement</li>
+              <li>Rechnungsfreigabe</li>
 
-      <a class="social" href="https://www.xing.com/profile/Victoria_Wika/cv"><img src="./images/xing.svg" alt="Xing"
-          width="20%">Xing</a>
-    </section>
-    <section>
-      <h2 id="bio">About me</h2>
-      <p>
-        Ich bin Victoria und komme aus dem wunderschönen Hamburg!
-        Vor dem Start des Web Development Bootcamps in Hamburg
-        habe ich Logistik und Mobilität an der TUHH studiert.
-        Mein Studium habe ich im November 2020 abgeschlossen,
-        aber schon während meiner Werkstudenten-Tätigkeiten habe ich gemerkt,
-        dass mich der Beruf nicht besonders fasziniert.
-      </p>
-      <p>
-        Auf neueFische bin ich gestoßen, als ich bei Xing im Einkauf gearbeitet habe
-        und den Vertrag zwischen neueFische und Xing verhandelt habe.
-        Und so bin ich dann beim Web Development gelandet!
-        Wenn Corona mir keinen Strich durch die Rechnung zieht,
-        reise ich am liebsten an neue Orte und snowboarde unheimlich gerne.
-        Zur Zeit beschränken sich meine Hobbys auf Serien und Filme, DIYs und
-        Malen nach Zahlen. Seit einiger Zeit gehört dazu auch das Programmieren!
-      </p>
-    </section>
-    <section>
-      <h2>Curriculum Vitae</h2>
-      <ul class="lebenslauf">
-        <li><b>Januar 2021 - April 2021</b><br>
-          <b>neueFische GmbH</b><br>Web Development Student
-        </li>
-        <li><b>November 2020</b><br>
-          <b>Technische Universität Hamburg</b><br>Bachelor of Science, Studiengang: Logistik und
-          Mobilität
-        </li>
-        <li><b>September 2018 - August 2020</b><br>
-          <b>New Work Young Professionals GmbH</b> (ehemals <b>XING Young Professionals GmbH</b>)<br>
-          Werkstudentin im Einkauf Tätigkeiten:
-          <ul>
-            <li>Selbständige Angebotsverhandlung von Agenturen</li>
-            <li>Dienstleistern und Coaches Vertragsgestaltung und -abschluss</li>
-            <li>Eigenverantwortliche Durchführung von Ausschreibungen</li>
-            <li>Einkauf von Lizenzen und IT Hardware</li>
-            <li>Lieferantenmanagement</li>
-            <li>Rechnungsfreigabe</li>
+              <b>Besondere eigene Projekte:</b>
+              <li>Bikeleasing</li>
+              <li>Umstellung der Versorgung auf Ökostrom</li>
+              <li>
+                Ausschreibung und Verhandlung eines neuen Internetanbieters für
+                New Work SE (inkl. Tochterunternehmen)
+              </li>
+              <li>Erstellung einer Videoanleitung für interne Prozesse</li>
+            </ul>
+          </li>
 
-            <b>Besondere eigene Projekte:</b>
-            <li>Bikeleasing</li>
-            <li>Umstellung der Versorgung auf Ökostrom</li>
-            <li>Ausschreibung und Verhandlung eines neuen Internetanbieters für New Work SE (inkl.
-              Tochterunternehmen)</li>
-            <li>Erstellung einer Videoanleitung für interne Prozesse</li>
-        </li>
-      </ul>
-      <li><b>Juli 2017 - Dezember 2017</b><br>
-        <b>AIRBUS Operations GmbH</b><br>
-        Praktikum im Bereich Produktion, Material Flow & Interface Management,
-        Tätigkeiten:
-        <ul>
-          <li>Analyse von logistischen Abläufen</li>
-          <li>Visualisierung und Dokumentation von Prozessen</li>
-          <li>Projektmitarbeit</li>
-      </li>
-      <ul>
-        </li>
-      </ul>
-    </section>
-  </main>
-  <footer class="footer">
-    Copyright &copy; 2020 Victoria Wika
-  </footer>
-</body>
-
+          <li>
+            <b>Juli 2017 - Dezember 2017</b><br />
+            <b>AIRBUS Operations GmbH</b><br />
+            Praktikum im Bereich Produktion, Material Flow & Interface
+            Management, Tätigkeiten:
+            <ul>
+              <li>Analyse von logistischen Abläufen</li>
+              <li>Visualisierung und Dokumentation von Prozessen</li>
+              <li>Projektmitarbeit</li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer class="footer">Copyright &copy; 2020 Victoria Wika</footer>
+  </body>
 </html>
