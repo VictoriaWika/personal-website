@@ -1,9 +1,20 @@
 body {
   box-sizing: border-box;
-  font-family: 'Montserrat', sans-serif;
+  font-family: Montserrat, sans-serif;
   font-size: 112.5%;
+  color: #464d54;
   line-height: 1.5;
   margin: 0;
+  background-color: #f6f4f6;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Bodoni Moda', serif;
 }
 
 h1 {
@@ -16,14 +27,8 @@ h2 {
 }
 
 h3 {
-  font-weight: 400;
+  font-weight: 200;
   margin: 0;
-}
-
-header {
-  background: #eae8e6;
-  text-align: center;
-  padding: 5px;
 }
 
 main {
@@ -32,7 +37,14 @@ main {
 
 a {
   text-decoration: none;
-  color: black;
+  color: #464d54;
+}
+
+.main-header {
+  background: #ebe9eb;
+  text-align: center;
+  padding: 5px;
+  box-shadow: 0 1.5px 5px #c5c4c6;
 }
 
 .main-nav {
@@ -41,7 +53,7 @@ a {
 }
 
 .profile-picture {
-  margin: 0 auto;
+  margin: 30px auto 10px;
   border-radius: 50%;
 }
 
@@ -55,19 +67,22 @@ a {
 
 .skill {
   margin: 2px;
-  background-color: #c7e0dd;
-  padding-right: 2px;
-  padding-left: 2px;
+  background-image: linear-gradient(to right, #ebe9eb, #dcdadb);
+  box-shadow: 1px 2px 2px #c5c4c6;
+  padding-right: 3px;
+  padding-left: 3px;
   border-radius: 5px;
 }
 
 .contact {
-  border: 1px solid black;
-  border-radius: 10px;
   text-align: center;
-  margin: 20px;
+  margin: 80px;
   padding: 10px;
   font-style: normal;
+}
+
+.address {
+  margin-bottom: 20px;
 }
 
 .social {
@@ -75,20 +90,27 @@ a {
   align-content: center;
   justify-content: space-evenly;
   margin-top: 40px;
-  margin-bottom: 15px;
+  margin-bottom: 60px;
 }
 
 .social a {
-  width: 15%;
+  width: 13%;
+}
+
+.icon {
+  filter: invert(30%) sepia(11%) saturate(504%) hue-rotate(169deg)
+    brightness(88%) contrast(89%);
 }
 
 .lebenslauf {
   list-style: none;
   padding-left: 0px;
+  margin-bottom: 100px;
 }
 
 .footer {
-  background: #eae8e6;
+  background: #ebe9eb;
   text-align: center;
-  padding: 40px 0 10px;
+  padding: 40px 0;
+  box-shadow: 0 -1.5px 2px #c5c4c6;
 }
