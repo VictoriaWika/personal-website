@@ -43,14 +43,78 @@ h3 {
   margin: 0;
 }
 
-main {
-  margin: 0px 10px;
-}
-
 a {
   text-decoration: none;
   color: #464d54;
 }
+
+/* ====================================
+=============media querie==============
+=========  max-width: 575px  ==========
+=====================================*/
+
+@media only screen and (max-width: 575px) {
+  main {
+    margin: 0px 10px;
+  }
+}
+
+/* ====================================
+=============media querie==============
+=========  min-width: 576px  ==========
+=====================================*/
+
+@media only screen and (min-width: 576px) {
+  main {
+    margin: 0px 40px;
+  }
+}
+
+/* ====================================
+=============media querie==============
+=========  min-width: 768px  ==========
+=====================================*/
+
+@media only screen and (min-width: 768px) {
+  main {
+    margin: 0px 40px;
+  }
+
+  .profile {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .profile-picture {
+    order: 1;
+  }
+}
+
+/* ====================================
+=============media querie==============
+=========  min-width: 992px  ==========
+=====================================*/
+
+@media only screen and (min-width: 992px) {
+  main {
+    margin: 0px 100px;
+  }
+}
+
+/* ====================================
+=============media querie==============
+========  min-width: 1200px  ==========
+=====================================*/
+
+@media only screen and (min-width: 1200px) {
+  main {
+    margin: 0px 150px;
+  }
+}
+
+/* ====================================
+=================  END  ===============
+=====================================*/
 
 .main-header {
   background: #f6f4f6;
@@ -63,6 +127,7 @@ a {
   display: flex;
   justify-content: space-evenly;
   padding: 5px;
+  font-size: 16px;
 }
 
 /*.main-nav a:hover {
@@ -70,6 +135,8 @@ a {
   color: #f6f4f6;
   padding: 5px;
 }*/
+
+/* ===================  Profile  ================= */
 
 .profile {
   margin-top: 40px;
@@ -83,10 +150,24 @@ a {
   margin-right: auto;
 }
 
+.image-text {
+  margin: 40px 0;
+  text-align: center;
+}
+.bold {
+  font-weight: 600;
+}
+
+.about-me {
+  text-align: center;
+}
+
+/* ===================  Skills  ================= */
+
 .skills {
   list-style: none;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   flex-wrap: wrap;
   padding-left: 0px;
 }
@@ -99,10 +180,11 @@ a {
   padding-left: 3px;
   border-radius: 5px;
 }
+/* ===================  Contact  ================= */
 
 .contact {
   text-align: center;
-  margin: 80px;
+  margin: 80px 0;
   padding: 10px;
   font-style: normal;
 }
@@ -110,6 +192,12 @@ a {
 .address {
   margin-bottom: 20px;
 }
+
+.email {
+  align-self: center;
+}
+
+/* ===================  Social  ================= */
 
 .social {
   display: flex;
@@ -120,13 +208,16 @@ a {
 }
 
 .social a {
-  width: 13%;
+  width: 50px;
+  max-width: 50px;
 }
 
 .icon {
   filter: invert(30%) sepia(11%) saturate(504%) hue-rotate(169deg)
     brightness(88%) contrast(89%);
 }
+
+/* ===================  Resume  ================= */
 
 .lebenslauf {
   list-style: none;
@@ -141,6 +232,8 @@ a {
 .resume-bold {
   font-weight: bold;
 }
+
+/* ===================  Footer  ================= */
 
 .footer {
   background: #f6f4f6;
