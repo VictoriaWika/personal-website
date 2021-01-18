@@ -1,6 +1,6 @@
 .main-header__container {
-  background: #f6f4f6;
-  box-shadow: 0 1.5px 5px #dcdadb;
+  background: var(--light-beige-color);
+  box-shadow: 0 1.5px 5px var(--box-shadow-color);
 }
 
 .main-header {
@@ -50,8 +50,8 @@
   }
 
   .main-header__nav a:hover {
-    background-color: #464d54;
-    color: #f6f4f6;
+    background-color: var(--text-icon-color);
+    color: var(--light-beige-color);
     border-radius: 5px;
   }
 }

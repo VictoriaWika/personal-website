@@ -2,10 +2,10 @@ body {
   box-sizing: border-box;
   font-family: Montserrat, sans-serif;
   font-size: 112.5%;
-  color: #464d54;
+  color: var(--text-icon-color);
   line-height: 1.5;
   margin: 0;
-  background-color: #fefefe;
+  background-color: var(--default-white);
 }
 
 h1,
@@ -36,7 +36,7 @@ h3 {
 
 a {
   text-decoration: none;
-  color: #464d54;
+  color: var(--text-icon-color);
 }
 
 /*===========media queries=============

@@ -8,8 +8,8 @@
 }
 
 .contact__info {
-  border: 1px solid #ebe9eb;
-  box-shadow: 1px 1px 2px #dcdadb;
+  border: 1px solid var(--light-grey-color);
+  box-shadow: 1px 1px 2px var(--box-shadow-color);
   padding: 5px 5px;
   border-radius: 5px;
 }

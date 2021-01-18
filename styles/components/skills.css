@@ -8,8 +8,12 @@
 
 .skills__item {
   margin: 2px;
-  background-image: linear-gradient(to right, #f6f4f6, #ebe9eb);
-  box-shadow: 2px 2px 2px #dcdadb;
+  background-image: linear-gradient(
+    to right,
+    var(--light-beige-color),
+    var(--light-grey-color)
+  );
+  box-shadow: 2px 2px 2px var(--box-shadow-color);
   padding-right: 3px;
   padding-left: 3px;
   border-radius: 5px;
