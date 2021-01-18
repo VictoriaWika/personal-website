@@ -17,14 +17,14 @@
 /*===========media queries=============
 =====================================*/
 
-@media only screen and (min-width: 300px) {
+@media (min-width: 300px) {
   .contact {
     margin: 80px 0;
     padding: 10px;
   }
 }
 
-@media only screen and (min-width: 992px) {
+@media (min-width: 992px) {
   .contact__flex-container {
     display: flex;
     margin-top: 80px;

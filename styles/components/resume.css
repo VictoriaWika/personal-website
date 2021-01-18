@@ -15,11 +15,14 @@
 /*===========media queries=============
 =====================================*/
 
-@media only screen and (min-width: 300px) {
+@media (min-width: 300px) {
   .resume {
     margin-top: 80px;
   }
 }
 
-@media only screen and (min-width: 992px) {
+@media (min-width: 992px) {
+  .resume h2 {
+    text-align: left;
+  }
 }

@@ -18,7 +18,7 @@
 /*===========media queries=============
 =====================================*/
 
-@media only screen and (min-width: 768px) {
+@media (min-width: 768px) {
   .skills__boss {
     display: flex;
     justify-content: space-around;
@@ -27,6 +27,7 @@
   }
 
   .skills {
-    margin: 0 25px;
+    margin-right: 25px;
+    margin-left: 25px;
   }
 }

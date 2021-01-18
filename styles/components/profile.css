@@ -13,14 +13,14 @@
 /*===========media queries=============
 =====================================*/
 
-@media only screen and (min-width: 300px) {
+@media (min-width: 300px) {
   .profile__text {
     margin: 40px 0;
     text-align: center;
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media (min-width: 768px) {
   .profile {
     display: flex;
     align-items: center;

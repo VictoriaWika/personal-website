@@ -19,12 +19,12 @@
 /*===========media queries=============
 =====================================*/
 
-@media only screen and (min-width: 768px) {
+@media (min-width: 768px) {
   .social {
     margin: 0 auto 40px;
   }
 }
-@media only screen and (min-width: 992px) {
+@media (min-width: 992px) {
   .social {
     flex-direction: column;
     flex-wrap: wrap;
@@ -36,7 +36,7 @@
   }
 }
 
-@media only screen and (min-width: 1200px) {
+@media (min-width: 1200px) {
   .social {
     margin-bottom: 0;
   }

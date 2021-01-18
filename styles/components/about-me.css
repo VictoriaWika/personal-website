@@ -4,16 +4,21 @@
 
 /*===========media queries=============
 =====================================*/
-@media only screen and (min-width: 300px) {
+@media (min-width: 300px) {
   .about-me {
     text-align: center;
   }
 }
 
-@media only screen and (min-width: 992px) {
+@media (min-width: 992px) {
   .about-me {
     order: 0;
   }
+
+  .about-me h2 {
+    text-align: left;
+  }
+
   .about-me {
     text-align: left;
   }
