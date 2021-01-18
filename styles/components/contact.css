@@ -1,0 +1,23 @@
+.contact {
+  text-align: center;
+  font-style: normal;
+}
+
+.address {
+  margin-bottom: 20px;
+}
+
+.phone {
+  align-self: center;
+}
+
+.email {
+  align-self: center;
+}
+
+@media only screen and (max-width: 575px) {
+  .contact {
+    margin: 80px 0;
+    padding: 10px;
+  }
+}

@@ -1,0 +1,22 @@
+.main-header {
+  background: #f6f4f6;
+  text-align: center;
+  padding: 5px;
+  xbox-shadow: 0 1.5px 5px #dcdadb;
+}
+
+.main-nav {
+  display: flex;
+  padding: 5px;
+  font-size: 16px;
+}
+
+@media only screen and (max-width: 575px) {
+  .main-header {
+    box-shadow: 0 1.5px 5px #dcdadb;
+  }
+
+  .main-nav {
+    justify-content: space-evenly;
+  }
+}

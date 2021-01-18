@@ -1,98 +1,21 @@
-/*:root {
-    #F6F4F6
-    #EBE9EB
-    #DCDADB
-    #C5C4C6
-    #828085
-    #353336
-    #464d54
-    #262626
-}*/
+@import 'components/contact.css';
+@import 'components/footer.css';
+@import 'components/header.css';
+@import 'components/profile.css';
+@import 'components/resume.css';
+@import 'components/skills.css';
+@import 'components/social.css';
+@import 'components/social.css';
 
-body {
-  box-sizing: border-box;
-  font-family: Montserrat, sans-serif;
-  font-size: 112.5%;
-  color: #464d54;
-  line-height: 1.5;
-  margin: 0;
-  background-color: #fefefe;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: 'Bodoni Moda', serif;
-}
-
-h1 {
-  font-size: 35px;
-  font-weight: 600;
-  padding: 0;
-}
-
-h2 {
-  font-weight: 400;
-  margin: 0;
-}
-
-h3 {
-  font-weight: 200;
-  margin: 0;
-}
-
-a {
-  text-decoration: none;
-  color: #464d54;
-}
+@import '_base.css';
+@import '_utility.css';
+@import '_variables.css';
 
 /* ====================================
 =============media querie==============
 =========  max-width: 575px  ==========
 =====================================*/
-
 @media only screen and (max-width: 575px) {
-  main {
-    margin: 0px 10px;
-  }
-
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    text-align: center;
-  }
-
-  .main-header {
-    box-shadow: 0 1.5px 5px #dcdadb;
-  }
-
-  .main-nav {
-    justify-content: space-evenly;
-  }
-
-  .image-text {
-    margin: 40px 0;
-    text-align: center;
-  }
-
-  .contact {
-    margin: 80px 0;
-    padding: 10px;
-  }
-
-  .social {
-    justify-content: space-evenly;
-  }
-
-  .resume {
-    margin-top: 80px;
-  }
 }
 
 /* ====================================
@@ -126,7 +49,7 @@ a {
     padding: 0 20px;
   }
 
-  .image-text {
+  .profile-text {
     margin: 40px 0;
     text-align: center;
   }
@@ -185,7 +108,7 @@ a {
     order: 1;
   }
 
-  .image-text {
+  .profile-text {
     margin: 0;
     text-align: left;
     padding-right: 40px;
@@ -265,7 +188,7 @@ a {
     order: 1;
   }
 
-  .image-text {
+  .profile-text {
     margin: 0;
     text-align: left;
     padding-right: 40px;
@@ -383,7 +306,7 @@ a {
     order: 1;
   }
 
-  .image-text {
+  .profile-text {
     margin: 0;
     text-align: left;
     padding-right: 40px;
@@ -440,119 +363,3 @@ a {
 /* ====================================
 =================  END  ===============
 =====================================*/
-
-.main-header {
-  background: #f6f4f6;
-  text-align: center;
-  padding: 5px;
-  xbox-shadow: 0 1.5px 5px #dcdadb;
-}
-
-.main-nav {
-  display: flex;
-  padding: 5px;
-  font-size: 16px;
-}
-
-/* ===================  Profile  ================= */
-
-.profile {
-  margin-top: 40px;
-  margin-bottom: 20px;
-}
-
-.profile-picture {
-  border-radius: 50%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.bold {
-  font-weight: 600;
-  font-size: 22px;
-}
-
-.about-me {
-  text-align: center;
-}
-
-/* ===================  Skills  ================= */
-
-.skills {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  padding-left: 0px;
-}
-
-.skill {
-  margin: 2px;
-  background-image: linear-gradient(to right, #f6f4f6, #ebe9eb);
-  box-shadow: 2px 2px 2px #dcdadb;
-  padding-right: 3px;
-  padding-left: 3px;
-  border-radius: 5px;
-}
-/* ===================  Contact  ================= */
-
-.contact {
-  text-align: center;
-  font-style: normal;
-}
-
-.address {
-  margin-bottom: 20px;
-}
-
-.phone {
-  align-self: center;
-}
-
-.email {
-  align-self: center;
-}
-
-/* ===================  Social  ================= */
-
-.social {
-  display: flex;
-  align-content: center;
-  margin-top: 40px;
-  margin-bottom: 60px;
-}
-
-.social a {
-  width: 50px;
-  max-width: 50px;
-}
-
-.icon {
-  filter: invert(30%) sepia(11%) saturate(504%) hue-rotate(169deg)
-    brightness(88%) contrast(89%);
-}
-
-/* ===================  Resume  ================= */
-.lebenslauf {
-  list-style: none;
-  padding-left: 0px;
-  margin-bottom: 100px;
-}
-
-.lebenslauf li {
-  margin-bottom: 10px;
-}
-
-.resume-bold {
-  font-weight: bold;
-}
-
-/* ===================  Footer  ================= */
-
-.footer {
-  background: #f6f4f6;
-  text-align: center;
-  padding: 40px 0;
-  box-shadow: 0 -1.5px 2px #dcdadb;
-}

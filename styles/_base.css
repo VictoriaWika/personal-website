@@ -1,0 +1,54 @@
+body {
+  box-sizing: border-box;
+  font-family: Montserrat, sans-serif;
+  font-size: 112.5%;
+  color: #464d54;
+  line-height: 1.5;
+  margin: 0;
+  background-color: #fefefe;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Bodoni Moda', serif;
+}
+
+h1 {
+  font-size: 35px;
+  font-weight: 600;
+  padding: 0;
+}
+
+h2 {
+  font-weight: 400;
+  margin: 0;
+}
+
+h3 {
+  font-weight: 200;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #464d54;
+}
+
+@media only screen and (max-width: 575px) {
+  main {
+    margin: 0px 10px;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    text-align: center;
+  }
+}

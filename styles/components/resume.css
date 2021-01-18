@@ -1,0 +1,19 @@
+.lebenslauf {
+  list-style: none;
+  padding-left: 0px;
+  margin-bottom: 100px;
+}
+
+.lebenslauf li {
+  margin-bottom: 10px;
+}
+
+.resume-bold {
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 575px) {
+  .resume {
+    margin-top: 80px;
+  }
+}

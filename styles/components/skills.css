@@ -1,0 +1,19 @@
+.skills {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-left: 0px;
+}
+
+.skill {
+  margin: 2px;
+  background-image: linear-gradient(to right, #f6f4f6, #ebe9eb);
+  box-shadow: 2px 2px 2px #dcdadb;
+  padding-right: 3px;
+  padding-left: 3px;
+  border-radius: 5px;
+}
+
+@media only screen and (max-width: 575px) {
+}

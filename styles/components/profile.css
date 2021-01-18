@@ -1,0 +1,22 @@
+.profile {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.profile-picture {
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about-me {
+  text-align: center;
+}
+
+@media only screen and (max-width: 575px) {
+  .profile-text {
+    margin: 40px 0;
+    text-align: center;
+  }
+}
