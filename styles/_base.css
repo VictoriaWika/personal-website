@@ -52,3 +52,29 @@ a {
     text-align: center;
   }
 }
+
+@media only screen and (min-width: 576px){
+    main {
+      margin: 0px 40px;
+    }
+  
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      text-align: center;
+    }
+
+    @media only screen and (min-width: 768px) {
+        main {
+          margin: 0px 60px;
+        }
+    }
+
+    @media only screen and (min-width: 992px) {
+    main {
+        margin: 0px 150px;
+      }
+    }

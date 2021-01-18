@@ -17,3 +17,9 @@
     margin-top: 80px;
   }
 }
+
+@media only screen and (min-width: 576px) {
+}
+
+@media only screen and (min-width: 768px) {
+}
