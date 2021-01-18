@@ -15,11 +15,8 @@
   border-radius: 5px;
 }
 
-@media only screen and (max-width: 575px) {
-}
-
-@media only screen and (min-width: 576px) {
-}
+/*===========media queries=============
+=====================================*/
 
 @media only screen and (min-width: 768px) {
   .skills-boss {
@@ -27,5 +24,9 @@
     justify-content: space-around;
     align-items: flex-start;
     margin-top: 80px;
+  }
+
+  .skills {
+    margin: 0 25px;
   }
 }

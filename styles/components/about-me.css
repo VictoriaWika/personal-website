@@ -1,0 +1,8 @@
+/*===========media queries=============
+=====================================*/
+
+@media only screen and (min-width: 992px) {
+  .about-me {
+    order: 0;
+  }
+}

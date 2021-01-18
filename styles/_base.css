@@ -15,6 +15,7 @@ h4,
 h5,
 h6 {
   font-family: 'Bodoni Moda', serif;
+  text-align: center;
 }
 
 h1 {
@@ -38,43 +39,40 @@ a {
   color: #464d54;
 }
 
-@media only screen and (max-width: 575px) {
+/*===========media queries=============
+=====================================*/
+
+@media only screen and (min-width: 300px) {
   main {
     margin: 0px 10px;
   }
+}
 
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    text-align: center;
+@media only screen and (min-width: 576px) {
+  main {
+    margin: 0px 40px;
   }
 }
 
-@media only screen and (min-width: 576px){
-    main {
-      margin: 0px 40px;
-    }
-  
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-      text-align: center;
-    }
+@media only screen and (min-width: 768px) {
+  main {
+    margin: 0px 60px;
+  }
+}
 
-    @media only screen and (min-width: 768px) {
-        main {
-          margin: 0px 60px;
-        }
-    }
+@media only screen and (min-width: 992px) {
+  main {
+    margin: 0px 150px;
+  }
 
-    @media only screen and (min-width: 992px) {
-    main {
-        margin: 0px 150px;
-      }
-    }
+  h1 {
+    padding-bottom: 2px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  main {
+    margin: 0 auto;
+    max-width: 900px;
+  }
+}

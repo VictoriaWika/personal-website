@@ -1,13 +1,14 @@
 .social {
   display: flex;
+  justify-content: space-evenly;
   align-content: center;
-  margin-top: 40px;
-  margin-bottom: 60px;
+  margin: 40px auto 60px;
+  max-width: 500px;
 }
 
 .social a {
-  width: 50px;
-  max-width: 50px;
+  width: 40px;
+  max-width: 40px;
 }
 
 .icon {
@@ -15,17 +16,28 @@
     brightness(88%) contrast(89%);
 }
 
-@media only screen and (max-width: 575px) {
-  .social {
-    justify-content: space-evenly;
-  }
-}
-
-@media only screen and (min-width: 576px) {
-}
+/*===========media queries=============
+=====================================*/
 
 @media only screen and (min-width: 768px) {
   .social {
-    margin: 0 20%;
+    margin: 0 auto 40px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .social {
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-bottom: 0;
+  }
+
+  .social a {
+    padding: 10px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .social {
+    margin-bottom: 0;
   }
 }
