@@ -3,7 +3,7 @@
   font-style: normal;
 }
 
-.address {
+.contact__address {
   margin-bottom: 20px;
 }
 
@@ -25,7 +25,7 @@
 }
 
 @media only screen and (min-width: 992px) {
-  .desktop-view {
+  .contact__flex-container {
     display: flex;
     margin-top: 80px;
   }
@@ -35,7 +35,7 @@
     padding: 0;
   }
 
-  .personal {
+  .contact__container {
     min-width: 200px;
     margin-left: 40px;
     display: flex;
@@ -43,7 +43,4 @@
     justify-content: space-between;
     order: 1;
   }
-}
-
-@media only screen and (min-width: 1200px) {
 }

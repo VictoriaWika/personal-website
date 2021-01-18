@@ -6,7 +6,7 @@
   padding-left: 0px;
 }
 
-.skill {
+.skills__item {
   margin: 2px;
   background-image: linear-gradient(to right, #f6f4f6, #ebe9eb);
   box-shadow: 2px 2px 2px #dcdadb;
@@ -19,7 +19,7 @@
 =====================================*/
 
 @media only screen and (min-width: 768px) {
-  .skills-boss {
+  .skills__boss {
     display: flex;
     justify-content: space-around;
     align-items: flex-start;

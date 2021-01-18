@@ -1,37 +1,33 @@
-.center-container {
-  max-width: 900px;
-  margin: 0 auto;
-}
-
-.main-header-container {
+.main-header__container {
   background: #f6f4f6;
   box-shadow: 0 1.5px 5px #dcdadb;
 }
 
 .main-header {
   text-align: center;
-  padding: 5px;
+  padding: 5px 0;
 }
 
-.main-nav {
+.main-header__nav {
   display: flex;
-  padding: 5px;
+  padding: 5px 0;
   font-size: 16px;
 }
 
 @media only screen and (min-width: 300px) {
-  .main-nav {
+  .main-header__nav {
     justify-content: space-evenly;
   }
 }
 
 @media only screen and (min-width: 576px) {
-  .main-nav {
+  .main-header__nav {
     justify-content: center;
   }
 
-  .main-nav a {
-    padding: 0 20px;
+  .main-header__nav a {
+    margin: 0 20px;
+    padding: 0 2px;
   }
 }
 
@@ -45,11 +41,15 @@
     margin: 0px 150px;
   }
 
-  .main-nav {
+  .main-header__nav {
     align-self: center;
   }
 
-  .main-nav a:hover {
+  .main-header__nav a {
+    margin: 0 0 0 40px;
+  }
+
+  .main-header__nav a:hover {
     background-color: #464d54;
     color: #f6f4f6;
     border-radius: 5px;

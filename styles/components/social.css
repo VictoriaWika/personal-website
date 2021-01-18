@@ -11,7 +11,7 @@
   max-width: 40px;
 }
 
-.icon {
+.social__icon {
   filter: invert(30%) sepia(11%) saturate(504%) hue-rotate(169deg)
     brightness(88%) contrast(89%);
 }

@@ -1,14 +1,14 @@
-.lebenslauf {
+.resume__list {
   list-style: none;
   padding-left: 0px;
   margin-bottom: 100px;
 }
 
-.lebenslauf li {
+.resume__list li {
   margin-bottom: 10px;
 }
 
-.resume-bold {
+.resume__bold {
   font-weight: bold;
 }
 

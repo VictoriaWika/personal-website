@@ -3,22 +3,18 @@
   margin-bottom: 20px;
 }
 
-.profile-picture {
+.profile__picture {
   border-radius: 50%;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
-.about-me {
-  text-align: center;
-}
-
 /*===========media queries=============
 =====================================*/
 
 @media only screen and (min-width: 300px) {
-  .profile-text {
+  .profile__text {
     margin: 40px 0;
     text-align: center;
   }
@@ -30,16 +26,13 @@
     align-items: center;
   }
 
-  .profile-picture {
+  .profile__picture {
     order: 1;
   }
 
-  .profile-text {
+  .profile__text {
     margin: 0;
     text-align: left;
     padding-right: 40px;
   }
-}
-
-@media only screen and (min-width: 992px) {
 }
