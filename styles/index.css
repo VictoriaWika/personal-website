@@ -1,6 +1,6 @@
-@import '_base.css';
-@import '_utility.css';
-@import '_variables.css';
+@import 'base.css';
+@import 'utility.css';
+@import 'variables.css';
 
 @import 'components/about-me.css';
 @import 'components/contact.css';
