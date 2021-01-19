@@ -1,0 +1,6 @@
+.footer {
+  background: var(--light-beige-color);
+  text-align: center;
+  padding: 40px 0;
+  box-shadow: 0 -1.5px 2px var(--box-shadow-color);
+}

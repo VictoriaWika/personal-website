@@ -1,0 +1,25 @@
+.about-me {
+  text-align: center;
+}
+
+/*===========media queries=============
+=====================================*/
+@media (min-width: 300px) {
+  .about-me {
+    text-align: center;
+  }
+}
+
+@media (min-width: 992px) {
+  .about-me {
+    order: 0;
+  }
+
+  .about-me h2 {
+    text-align: left;
+  }
+
+  .about-me {
+    text-align: left;
+  }
+}

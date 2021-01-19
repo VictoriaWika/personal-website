@@ -1,0 +1,28 @@
+.resume__list {
+  list-style: none;
+  padding-left: 0px;
+  margin-bottom: 100px;
+}
+
+.resume__list li {
+  margin-bottom: 10px;
+}
+
+.resume__bold {
+  font-weight: bold;
+}
+
+/*===========media queries=============
+=====================================*/
+
+@media (min-width: 300px) {
+  .resume {
+    margin-top: 80px;
+  }
+}
+
+@media (min-width: 992px) {
+  .resume h2 {
+    text-align: left;
+  }
+}

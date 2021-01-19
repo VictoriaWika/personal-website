@@ -1,0 +1,9 @@
+.center-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.bold {
+  font-weight: 600;
+  font-size: 22px;
+}

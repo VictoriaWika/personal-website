@@ -1,0 +1,38 @@
+.profile {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.profile__picture {
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*===========media queries=============
+=====================================*/
+
+@media (min-width: 300px) {
+  .profile__text {
+    margin: 40px 0;
+    text-align: center;
+  }
+}
+
+@media (min-width: 768px) {
+  .profile {
+    display: flex;
+    align-items: center;
+  }
+
+  .profile__picture {
+    order: 1;
+  }
+
+  .profile__text {
+    margin: 0;
+    text-align: left;
+    padding-right: 40px;
+  }
+}

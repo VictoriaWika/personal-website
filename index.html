@@ -20,10 +20,10 @@
   </head>
 
   <body>
-    <section class="big-view">
-      <header class="main-header">
-        <h1 class="logo">Victoria Wika</h1>
-        <nav class="main-nav">
+    <section class="main-header__container">
+      <header class="main-header center-container">
+        <h1>Victoria Wika</h1>
+        <nav class="main-header__nav">
           <a href="#bio">ABOUT ME</a>
           <a href="#contact">CONTACT ME</a>
           <a href="#resume">RESUME</a>
@@ -33,13 +33,13 @@
     <main>
       <section class="profile">
         <img
-          class="profile-picture"
-          src="images/Foto.JPG"
+          class="profile__picture"
+          src="images/profile-picture.JPG"
           alt=""
           width="300"
           height="300"
         />
-        <figcaption class="image-text">
+        <figcaption class="profile__text">
           <p>
             <span class="bold">Hallo, ich bin Victoria Wika!</span> <br />
             Eine angehende Web Developerin aus dem wunderschönen Hamburg.
@@ -53,69 +53,76 @@
           angefangen!
         </figcaption>
       </section>
-      <section class="skills-boss">
+      <section class="skills__boss">
         <section>
           <h2>Skills</h2>
           <ul class="skills">
-            <li class="skill">HTML</li>
-            <li class="skill">CSS</li>
-            <li class="skill">JavaScript</li>
-            <li class="skill">Git &amp; Github</li>
-            <li class="skill">zsh</li>
-            <li class="skill">MS Office</li>
-            <li class="skill">Jira</li>
-            <li class="skill">Confluence</li>
-            <li class="skill">Slack</li>
-            <li class="skill">SAP</li>
+            <li class="skills__item">HTML</li>
+            <li class="skills__item">CSS</li>
+            <li class="skills__item">JavaScript</li>
+            <li class="skills__item">Git &amp; Github</li>
+            <li class="skills__item">zsh</li>
+            <li class="skills__item">MS Office</li>
+            <li class="skills__item">Jira</li>
+            <li class="skills__item">Confluence</li>
+            <li class="skills__item">Slack</li>
+            <li class="skills__item">SAP</li>
           </ul>
         </section>
         <section>
           <h2>Sprachen</h2>
           <ul class="skills">
-            <li class="skill">Deutsch</li>
-            <li class="skill">Polnisch</li>
-            <li class="skill">Englisch</li>
-            <li class="skill">Spanisch</li>
+            <li class="skills__item">Deutsch</li>
+            <li class="skills__item">Polnisch</li>
+            <li class="skills__item">Englisch</li>
+            <li class="skills__item">Spanisch</li>
           </ul>
         </section>
         <section>
           <h2>Interessen</h2>
           <ul class="skills">
-            <li class="skill">Reisen</li>
-            <li class="skill">Snowboarden</li>
-            <li class="skill">Kochen</li>
-            <li class="skill">Serien &amp; Filme</li>
-            <li class="skill">Musik</li>
-            <li class="skill">DIY</li>
-            <li class="skill">Brettspiele</li>
+            <li class="skills__item">Reisen</li>
+            <li class="skills__item">Snowboarden</li>
+            <li class="skills__item">Kochen</li>
+            <li class="skills__item">Serien &amp; Filme</li>
+            <li class="skills__item">Musik</li>
+            <li class="skills__item">DIY</li>
+            <li class="skills__item">Brettspiele</li>
           </ul>
         </section>
       </section>
-      <section class="desktop-view">
-        <section class="personal">
+      <section class="contact__flex-container">
+        <!--container for contact + social + about-me desktop-view-->
+        <section class="contact__container">
           <address class="contact" id="contact">
-            <h2 class="address">Contact me</h2>
-            <a href="telto: +4917684832656">Call me</a>
-            <br />
-            <a href="mailto:victoriawika@icloud.com" class="email"
-              >Send me an e-mail</a
+            <h2 class="contact__address">Contact me</h2>
+            <a href="tel: +4917684832656" class="contact__info">Call me</a>
+            <br /><br />
+            <a href="mailto:victoriawika@icloud.com" class="contact__info"
+              >Send me an E-Mail</a
             >
           </address>
           <section class="social">
             <a href="https://www.github.com/VictoriaWika"
-              ><img class="icon" src="./images/github.svg" alt="Github"
+              ><img class="social__icon" src="./images/github.svg" alt="Github"
             /></a>
 
             <a href="https://www.codepen.io/victoriawika"
-              ><img class="icon" src="./images/codepen.svg" alt="Codepen"
+              ><img
+                class="social__icon"
+                src="./images/codepen.svg"
+                alt="Codepen"
             /></a>
 
             <a href="https://www.linkedin.com/in/victoria-wika/"
-              ><img class="icon" src="./images/linkedin.svg" alt="LinkedIn"
+              ><img
+                class="social__icon"
+                src="./images/linkedin.svg"
+                alt="LinkedIn"
             /></a>
 
             <a href="https://www.xing.com/profile/Victoria_Wika/cv"
-              ><img class="icon" src="./images/xing.svg" alt="Xing"
+              ><img class="social__icon" src="./images/xing.svg" alt="Xing"
             /></a>
           </section>
         </section>
@@ -129,8 +136,8 @@
             nicht besonders fasziniert.
           </p>
           <p>
-            Auf neueFische bin ich gestoßen, als ich bei Xing im Einkauf
-            gearbeitet habe und den Vertrag zwischen neueFische und Xing
+            Auf neueFische bin ich gestoßen, als ich bei XING im Einkauf
+            gearbeitet habe und den Vertrag zwischen neueFische und XING
             verhandelt habe. Und so bin ich dann beim Web Development gelandet!
             Wenn Corona mir keinen Strich durch die Rechnung zieht, reise ich am
             liebsten an neue Orte und snowboarde unheimlich gerne. Zur Zeit
@@ -141,26 +148,26 @@
       </section>
       <section id="resume" class="resume">
         <h2>Resume</h2>
-        <ul class="lebenslauf">
+        <ul class="resume__list">
           <li>
-            <span class="resume-bold"
+            <span class="resume__bold"
               >Januar 2021 - April 2021<br />
               neueFische GmbH</span
             ><br />Web Development Student
           </li>
           <li>
-            <span class="resume-bold"
+            <span class="resume__bold"
               >November 2020<br />
               Technische Universität Hamburg</span
             ><br />Bachelor of Science, Studiengang: Logistik und Mobilität
           </li>
           <li>
-            <span class="resume-bold"
+            <span class="resume__bold"
               >September 2018 - August 2020<br />
               New Work Young Professionals GmbH</span
             >
             (ehemals
-            <span class="resume-bold">XING Young Professionals GmbH</span
+            <span class="resume__bold">XING Young Professionals GmbH</span
             >)<br />
             Werkstudentin im Einkauf Tätigkeiten:
             <ul>
@@ -173,7 +180,7 @@
               <li>Lieferantenmanagement</li>
               <li>Rechnungsfreigabe</li>
 
-              <span class="resume-bold">Besondere eigene Projekte:</span>
+              <span class="resume__bold">Besondere eigene Projekte:</span>
               <li>Bikeleasing</li>
               <li>Umstellung der Versorgung auf Ökostrom</li>
               <li>
@@ -185,7 +192,7 @@
           </li>
 
           <li>
-            <span class="resume-bold"
+            <span class="resume__bold"
               >Juli 2017 - Dezember 2017<br />
               AIRBUS Operations GmbH</span
             ><br />
